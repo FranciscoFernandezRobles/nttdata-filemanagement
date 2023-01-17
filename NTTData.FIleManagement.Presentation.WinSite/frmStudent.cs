@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NTTData.FIleManagement.Presentation.WinSite
 {
-    public partial class Form1 : Form
+    public partial class frmStudent : Form
     {
-        public Form1()
+        public frmStudent()
         {
             InitializeComponent();
         }
