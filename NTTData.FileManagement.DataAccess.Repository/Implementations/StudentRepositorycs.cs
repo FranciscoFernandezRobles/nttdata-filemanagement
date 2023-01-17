@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NTTData.FileManagement.DataAccess.Repository.Implementations
 {
-    public class StudentRepository : IStudentRepository
+    public class StudentRepositorycs : IStudentRepository
     {
         public bool Add(Student student)
         {

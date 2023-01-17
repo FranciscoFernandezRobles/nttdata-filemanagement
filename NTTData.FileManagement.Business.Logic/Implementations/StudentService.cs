@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NTTData.FileManagement.Business.Logic.Implementations
 {
-    public class StudentService : IStudentService
+    internal class StudentService : IStudentService
     {
         public bool Add(Student student)
         {
