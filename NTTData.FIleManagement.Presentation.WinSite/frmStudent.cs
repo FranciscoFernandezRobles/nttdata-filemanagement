@@ -10,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using System.Collections.Specialized;
 
 namespace NTTData.FIleManagement.Presentation.WinSite
 {
@@ -22,7 +24,8 @@ namespace NTTData.FIleManagement.Presentation.WinSite
 
         private void frmStudent_Load(object sender, EventArgs e)
         {
-
+            string path = ConfigurationManager.AppSettings.Get("StudentsFilePath");
+            MessageBox.Show(path);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
