@@ -37,7 +37,7 @@ namespace NTTData.FileManagement.Common.Model
 
         public override string ToString()
         {
-            return Id + ", " + Name + ", " + Surnane + ", " + Birthday.ToString("dd/MM/yy") + ", " + Age;
+            return Id + "," + Name + "," + Surnane + "," + Birthday.ToString("dd/MM/yy") + "," + Age;
         }
     }
 }
